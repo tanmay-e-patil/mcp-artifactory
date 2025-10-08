@@ -1,0 +1,9 @@
+# Python MCP Server Requirements
+# MCP SDK with FastMCP support
+mcp[cli]>=1.0.0
+
+# HTTP client for API calls
+requests>=2.31.0
+
+# Data validation
+pydantic>=2.0.0
