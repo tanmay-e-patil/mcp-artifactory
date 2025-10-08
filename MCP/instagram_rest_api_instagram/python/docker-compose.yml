@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  mcp-server:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      platforms:
+        - linux/amd64
+    environment:
+      - PORT=8080
+      - TRANSPORT=http
+    ports:
+      - "8080:8080"
